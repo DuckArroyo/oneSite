@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./homeStyle.css"/>
+
+    <!-- Pure styling -->
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+
+    <!-- Home page styling -->
+    <link rel="stylesheet" href="./homeStyle.css"/>
+
     <link rel="icon" href="./favicon512.png" />
     <title>One page to rule all</title>
 </head>
@@ -29,37 +34,98 @@
             </li>
     </nav>
     
-    <section 
-    id="left-panel"
-    class="pure-menu custom-restricted-width"
-    >
+    <section id="left-panel" class="pure-menu custom-restricted-width">
     
-    <span class="pure-menu-heading">Left Panel</span>
-    <ul class="pure-menu-list">
-        <li class="pure-menu-item">
+        <span class="pure-menu-heading">Left Panel</span>
+    
+        <ul class="pure-menu-list">
+    
+            <li class="pure-menu-item">
             <a href="#" class="pure-menu-link">Taskinator</a>
-        </li>
-        <li class="pure-menu-item">
+            </li>
+            <li class="pure-menu-item">
             <a href="#" class="pure-menu-link">APP #2</a>
-        </li>
-        <li class="pure-menu-item">
+            </li>
+            <li class="pure-menu-item">
             <a href="#" class="pure-menu-link">APP #3</a>
-        </li>
-        <li class="pure-menu-item">
+            </li>
+            <li class="pure-menu-item">
             <a href="#" class="pure-menu-link">APP #4</a>
-        </li>
-        <li class="pure-menu-item">
+            </li>
+            <li class="pure-menu-item">
             <a href="#" class="pure-menu-link">APP #5</a>
-        </li>
+            </li>
+        </ul>
 
     </section>
     
     <section id="feed">Feed</section>
     
-    <section id="right-panel">Right Panel</section>
+    <section id="right-panel" class="pure-menu custom-restricted-width">
+    
+        <span class="pure-menu-heading">Right Panel</span>
+        <ul class="pure-menu-list">
+    
+            <li class="pure-menu-item">
+            <a href="#" class="pure-menu-link">User created shortcuts</a>
 
-    <footer>
-        Footer
+        </ul>
+    </section>
+    
+    <footer class="pure-menu pure-menu-horizontal">
+        <span class="pure-menu-heading">
+        Created by DeveloperDuckArroyo
+        </span>
+<br>
+        <li class="pure-menu-item">        
+            <a 
+            href="https://duckarroyo.github.io/portfolio" 
+            class="pure-menu-link"
+            target="_blank"
+            >Portfolio</a>
+        </li>
+
+        <li class="pure-menu-item">        
+        <a 
+        href="https://github.com/DuckArroyo" 
+        class="pure-menu-link"
+        target="_blank"
+        >GitHub</a>
+    </li>
+
+        <li class="pure-menu-item">        
+        <a 
+        href="https://twitter.com/DevDuckArroyo" 
+        class="pure-menu-link"
+        target="_blank"
+        >Twitter @DevDuckArroyo</a>
+    </li>
+
+        <li class="pure-menu-item">                
+        <a 
+        href="https://www.linkedin.com/in/duckarroyo" 
+        class="pure-menu-link"
+        target="_blank"
+        >LinkedIn</a>
+    </li>
+        
+        <li class="pure-menu-item">        
+        <a 
+        href="https://codepen.io/DeveloperDuckArroyo" 
+        class="pure-menu-link"
+        target="_blank"
+        >Code Pen</a>
+    </li>
+
+
+        <li class="pure-menu-item">        
+        <a 
+        href="mailto:DeveloperDuckArroyo@gmail.com" 
+        class="pure-menu-link"
+        target="_blank"
+        >Email me</a>
+    </li>
+
     </footer>
 
     <script src="./home.js"></script>
