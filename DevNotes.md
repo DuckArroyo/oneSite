@@ -5,3 +5,11 @@ Will build apps in separate pages and then come back to build it all into one pa
 
 Styling with css and Pure
 - [Pure](https://purecss.io/start/)
+
+
+# Add 
+
+- add robot game to a new page.
+    - add a hue color according to a win or loss. 
+    - add a visual log of the game progress
+    - add a random image of victories or losses.
