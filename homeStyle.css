@@ -26,7 +26,6 @@ root {
   flex-direction: column;
 }
 
-nav,
 footer {
   background-color: gray;
   color: var(--neutral);
@@ -38,6 +37,7 @@ footer {
   background-color: var(--dark);
   border: 1px solid var(--light);
   border-radius: 5px;
+  width: 10em;
 }
 
 #feed {
@@ -50,4 +50,5 @@ footer {
   background-color: var(--dark);
   border: 1px solid var(--light);
   border-radius: 5px;
+  width: 10em;
 }
